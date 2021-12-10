@@ -20,6 +20,7 @@ Flask-SQLAlchemy==2.5.1
 geographiclib==1.52
 geopy==2.2.0
 greenlet==1.1.1
+gunicorn==20.1.0
 idna==3.2
 isodate==0.6.0
 itsdangerous==2.0.1
@@ -30,6 +31,7 @@ MarkupSafe==2.0.1
 marshmallow==3.13.0
 marshmallow-sqlalchemy==0.26.1
 platformdirs==2.2.0
+psycopg2==2.9.2
 pycep-correios==5.0.0
 PyJWT==2.1.0
 python-dateutil==2.8.2

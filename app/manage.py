@@ -1,5 +1,5 @@
 from flask_migrate import upgrade
-from models import Role
+from .models import Role
 
 def manage_database():
     upgrade()

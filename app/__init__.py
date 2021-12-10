@@ -32,7 +32,7 @@ def create_app(config_name):
     from .auth import auth as auth_blueprint
     app.register_blueprint(auth_blueprint, url_prefix='/api/v1/auth')
 
-    @app.before_first_request()
+    @app.before_first_request
     def update_database():
         from .manage import manage_database
         manage_database()

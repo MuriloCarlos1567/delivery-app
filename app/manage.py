@@ -8,4 +8,4 @@ def manage_database():
     except:
         upgrade()
         Role.insert_roles()
-        print('Alredy up')
+        print('Updating')
